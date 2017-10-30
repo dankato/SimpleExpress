@@ -1,0 +1,17 @@
+{
+  "name": "simpleexpressserver",
+  "version": "1.0.0",
+  "description": "simple express server site",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dkato",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jade": "^1.11.0",
+    "nodemailer": "^4.3.1"
+  }
+}

@@ -1,0 +1,28 @@
+extends layout
+
+block content
+  // Main jumbotron for a primary marketing message or call to action
+  .jumbotron
+    .container
+      h1.display-3 #{title}
+      p
+        | Here I am using Express as the main MVC architecture on the server-side to keep things simple and organized. Jade is being used as the template to display the front end using the bootstrap library. nodemailer and body-parser also used.
+      p
+        a.btn.btn-primary.btn-lg(href='#', role='button', color='#f0ad4e') Learn more »
+  .container
+    // Example row of columns
+    .row
+      .col-md-4
+        h2 Today is a good day
+        p
+          | Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+        p
+          a.btn.btn-secondary(href='#', role='button') View details »
+      .col-md-4
+        h2 Tomorrow will bring greatness
+        p
+          | Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+        p
+          a.btn.btn-secondary(href='#', role='button') View details »
+      .col-md-4
+
